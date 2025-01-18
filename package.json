@@ -1,0 +1,10 @@
+{
+  "name": "miniflare-test",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "@types/node": "^22.10.7",
+    "miniflare": "^3.20241205.0"
+  }
+}
