@@ -3,6 +3,7 @@ import { Miniflare } from "miniflare";
 const mf = new Miniflare({
   scriptPath: "./worker.js",
   modules: true,
+  inspectorPort: 9229,
 });
 
 let response = await mf.dispatchFetch("http://localhost:8787");
